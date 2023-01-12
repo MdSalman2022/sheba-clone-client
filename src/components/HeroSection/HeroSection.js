@@ -16,11 +16,11 @@ function HeroSection() {
         <div className='relative'>
             <img src="https://i.ibb.co/86GH0k5/interior.jpg" alt="cleaners" border="0" className='h-[500px] w-full object-cover opacity-52' />
 
-            <div className="absolute top-40 left-0 md:left-[500px] lg:left-[600px]">
+            <div className="absolute top-40 left-0 md:left-[300px] lg:left-[600px]">
                 <h1 className="text-5xl font-bold text-white drop-shadow-lg mb-5">Your Personal Assistant</h1>
                 <p className="text-2xl font-semibold text-white drop-shadow-lg">One-stop solution for your services. Order any service, anytime.</p>
             </div>
-            <div className="form-control absolute top-72 hidden lg:flex lg:left-[580px]">
+            <div className="form-control absolute top-72 hidden lg:flex md:left-[280px] lg:left-[580px]">
                 <div className='flex gap-5'>
                     <label htmlFor="my-modal" className="btn btn-neutral w-32 lg:w-52 h-16 text-xl bg-white border-none">
                         <ImLocation className='text-primary' /> Gulshan
@@ -57,7 +57,7 @@ function HeroSection() {
                     </label>
                 </div>
             </div>
-            <div className="services w-full h-96 lg:w-[1100px]  lg:h-36  shadow-md absolute bg-white lg:-bottom-16 lg:left-[400px] rounded-lg">
+            <div className="services w-full h-96 md:w-[600px] lg:w-[1100px]  lg:h-36  shadow-md absolute bg-white lg:-bottom-16 lg:left-[400px] rounded-lg">
                 <div className="grid grid-cols-3 lg:grid-cols-7 gap-5 place-items-center p-2">
                     <img className='hover:bg-neutral p-10 rounded-lg duration-300' src="https://i.ibb.co/D72bXnv/1601959826-ac-52x52.webp" alt="1601959826-ac-52x52" border="0" />
                     <img className='hover:bg-neutral p-10 rounded-lg duration-300' src="https://i.ibb.co/MCPnbhG/1583681524-tiwnn-52x52.webp" alt="1583681524-tiwnn-52x52" border="0" />
