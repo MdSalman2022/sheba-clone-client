@@ -15,7 +15,7 @@ const About = () => {
                 <h2 className="text-3xl text-left font-semibold">Because we care about your safety..</h2>
 
 
-                <div className="flex  lg:flex-row  w-full justify-start items-center lg:gap-10 my-10">
+                <div className="flex flex-col w-full h-96 lg:h-full lg lg:flex-row  justify-start items-center lg:gap-10 my-10">
                     <div className="grid lg:grid-cols-2 gap-5 w-full">
                         <div className='flex gap-2 bg-white w-full h-32 rounded-lg items-center justify-center'>
                             <MdMasks className='text-primary text-6xl' />
@@ -39,8 +39,8 @@ const About = () => {
 
 
             </div>
-            <div className="bg-white h-1"></div>
-            <div className="ads bg-accent">
+            <div className="bg-white h-1 "></div>
+            <div className="ads bg-accent mt-80 lg:mt-0">
                 <div className='flex lg:grid lg:grid-cols-3 w-full h-full lg:h-32 justify-items-end  content-center lg:w-[1100px] mx-auto'>
                     <div className='flex lg:gap-24 justify-center'>
                         <div className='text-center space-y-3'>

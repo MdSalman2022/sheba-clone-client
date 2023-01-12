@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className="">
             <footer className="footer p-5 lg:p-10 bg-accent text-neutral-content mx-auto">
-                <div className="flex flex-col lg:grid lg:grid-cols-5 footer justify-items-center lg:w-52 lg:w-[1100px] mx-auto">
+                <div className="flex flex-col lg:grid lg:grid-cols-5 footer lg:justify-items-center w-52 lg:w-[1100px] mx-auto">
                     <div className='col-span-1'>
                         <span className=" text-black font-bold">CONTACT</span>
                         <a className="link link-hover">16516</a>
